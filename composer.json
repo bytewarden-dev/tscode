@@ -1,0 +1,19 @@
+{
+    "name": "tscode/system",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Broxin",
+            "email": "wardenbyte@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": ["functional.php"],
+        "psr-4": {
+            "tsCode\\System\\": "src/"
+        }
+    }
+}
